@@ -1,0 +1,666 @@
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVIGATION START */
+  
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+
+.logo img {
+    width: 150px;
+    height: 20px;
+}  
+
+
+
+.home ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}  
+.home ul li {
+    margin-right: 30px;
+}  
+.home ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+.login-search-flag a {
+    text-decoration: none;
+    color: white; 
+    margin-right: 15px;
+}  
+.login-search-flag .india{
+    width: 30px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+/* NAVIGATION END */
+
+
+
+/* BUTTONS FOR ALL IMAGES--START */
+
+.first-img .bike1 .sub-bike1 .button1{
+    background-color:white;
+    position: absolute;
+    color: black;
+    width: 100px;
+    height: 20px ;
+    right: 570px;
+    bottom: 100px;
+    font-size: 20px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+}
+
+
+
+.second-img .bike2 .sub-bike2 .button2{
+    background-color:white;
+    position: absolute;
+    color: black;
+    width: 100px;
+    height: 20px ;
+    right: 550px;
+    top: 1260px;
+    font-size: 20px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+}
+
+
+
+.third-img .bike3 .sub-bike3 .button3{
+    background-color:red;
+    position: absolute;
+    color: white;
+    width: 100px;
+    height: 20px ;
+    right: 550px;
+    top: 1800px;
+    font-size: 20px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+}
+
+
+
+.fourth-img .bike4 .sub-bike4 .button4{
+    background-color:white;
+    position: absolute;
+    color: black;
+    width: 100px;
+    height: 20px ;
+    right: 210px;
+    top: 2330px;
+    font-size: 20px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+}
+
+
+.fivth-img .bike5 .sub-bike5 .button5{
+    background-color: white;
+    position: absolute;
+    color: black;
+    width: 100px;
+    height: 20px ;
+    left:140px;
+    top: 2730px;
+    font-size: 20px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+}
+
+
+
+.sixth-img .bike6 .sub-bike6 .button6{
+    background-color: white;
+    position: absolute;
+    color: black;
+    width: 130px;
+    height: 20px ;
+    left:160px;
+    top: 3270px;
+    font-size: 20px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+}
+
+
+
+.sixth-img .bike6 .sub-bike6 .text{
+    
+    position: absolute;
+    color: white;
+    width: 250px;
+    left:210px;
+    top: 3210px;
+    font-size: 22px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    cursor:none;
+}
+
+/* BUTTONS FOR ALL IMAGES--END */
+
+
+
+/* NEWS AND MEDIA NAV START */
+
+.news-media{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* NEWS AND MEDIA END */
+
+
+
+/* 4 IMAGES START */
+
+ .bike-collection {
+    display: flex;
+}
+
+
+
+.bike-collection .himalayan1-img .himalayan1 .sub-himalayan1 .text1{
+    position: absolute;
+    color: white;
+    width: 250px;
+    left:140px;
+    top: 760px;
+    font-size: 13px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    cursor:none;
+}
+
+
+
+.bike-collection .himalayan2-img .himalayan2 .sub-himalayan2 .text2{
+    position: absolute;
+    color: white;
+    width: 250px;
+    left:480px;
+    top: 760px;
+    font-size: 13px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    cursor:none;
+}
+
+
+
+.bike-collection .himalayan3-img .himalayan3 .sub-himalayan3 .text3{
+    position: absolute;
+    color: white;
+    width: 250px;
+    right:265px;
+    top: 760px;
+    font-size: 13px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    cursor:none;
+}
+
+
+
+.bike-collection .himalayan4-img .himalayan4 .sub-himalayan4 .text4{
+    position: absolute;
+    color: white;
+    width: 250px;
+    right:-70px;
+    top: 760px;
+    font-size: 13px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    cursor:none;
+}
+
+/* 4 IMAGES END */
+
+
+
+/* MOTORCYCLES NAV START */
+
+ .Motorcycle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+}
+ .Motorcycle ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;      
+}
+  .Motorcycle ul li {
+    margin-right: 30px;
+}
+  .Motorcycle ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 11.1px;  
+}
+
+/* MOTORCYCLES NAV END */
+
+
+
+/* RIDES NAV START */
+
+.Rides{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;   
+}
+.Rides ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+.Rides ul li {
+    margin-right: 30px;   
+}
+.Rides ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 11.4px;  
+}
+ 
+/* RIDES NAV END */
+
+
+
+/* APPAREL NAV START */
+
+.Apparel{
+    display: flex;
+    align-items: left;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+}
+.Apparel ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+    gap: 7px; 
+}
+.Apparel ul li {
+    margin-right: 30px;   
+}
+.Apparel ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;  
+}
+
+/* APPAREL NAV END */
+
+
+
+/* ACCESSORIES NAV START */
+
+.Accessories{
+    display: flex;
+    align-items: left;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+}
+.Accessories ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+    gap: 7px; 
+}
+.Accessories ul li {
+    margin-right: 30px;   
+}
+.Accessories ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;  
+}
+
+/* ACCESSORIES NAV END */
+
+
+
+/* LOCATE US NAV START */
+
+.Locate-Us{
+    display: flex;
+    align-items: left;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+}
+.Locate-Us ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+    gap: 7px; 
+}
+.Locate-Us ul li {
+    margin-right: 30px;   
+}
+.Locate-Us ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;  
+}
+
+/* LOCATE US NAV END */
+
+
+
+/* TEST,STORE & SERVICE START */
+
+.last-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212;
+}
+.item {
+    text-align: center;
+}
+.icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    color:red; 
+}
+
+/* TEST,STORE & SERVICE END */
+
+
+
+/* SOCIAL MEDIA CONTACTS START */
+
+.info .contact{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    align-items: center;
+    gap: 10px;
+}
+
+/* SOCIAL MEDIA CONTACTS END */
+
+
+
+/* FOOTER START */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    padding: 10px 20px;
+    color:black;
+}
+.footer hr{
+    border: 0;
+    background-color: grey;
+    margin: 20px ;
+    height: 3px;
+}
+
+
+
+.aravind {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color : white;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aravind li{
+    font-size: 10px;
+}
+
+
+
+.aravind .footer-motorcycles {
+    display: grid;
+    align-items: left;
+    background-color:white;
+    color: black;
+}
+.aravind .footer-motorcycles ul {
+    display: grid;
+    list-style: none;
+    row-gap: 10px;
+}
+.aravind .footer-motorcycles ul li {
+    margin-right: 30px;
+}
+.aravind .footer-motorcycles ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+.aravind .footer-ride-event {
+    display: grid;
+    align-items: left;
+    background-color:white;
+    color: black;
+}
+.aravind .footer-ride-event ul {
+    display: grid;
+    list-style: none;
+    row-gap: 10px;
+}
+.aravind .footer-ride-event ul li {
+    margin-right: 30px;
+}
+.aravind .footer-ride-event ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+.aravind .footer-support {
+    display: grid;
+    align-items: left;
+    background-color:white;
+    color: black;
+}
+.aravind .footer-support ul {
+    display: grid;
+    list-style: none;
+    row-gap: 10px;
+}
+.aravind .footer-support ul li {
+    margin-right: 30px;
+}
+.aravind .footer-support ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+.aravind .footer-about-us{
+    display: grid;
+    align-items: left;
+    background-color:white;
+    color: black;
+}
+.aravind .footer-about-us ul {
+    display: grid;
+    list-style: none;
+    row-gap: 10px;
+}
+.aravind .footer-about-us ul li {
+    margin-right: 30px;
+}
+.aravind .footer-about-us ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+.aravind .footer-media{
+    display: grid;
+    align-items: left;
+    background-color:white;
+    color: black;
+}
+.aravind .footer-media ul {
+    display: grid;
+    list-style: none;
+    row-gap: 10px;
+}
+.aravind .footer-media ul li {
+    margin-right: 30px;
+}
+.aravind .footer-media ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+.aravind .footer-career{
+    display: grid;
+    align-items: left;
+    background-color:white;
+    color: black;
+}
+.aravind .footer-career ul {
+    display: grid;
+    list-style: none;
+    row-gap: 10px;
+}
+.aravind .footer-career ul li {
+    margin-right: 30px;
+}
+.aravind .footer-career ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+.aravind .footer-world{
+    display: grid;
+    align-items: left;
+    background-color:white;
+    color: black;
+}
+.aravind .footer-world ul {
+    display: grid;
+    list-style: none;
+    row-gap: 10px;
+}
+.aravind .footer-world ul li {
+    margin-right: 30px;
+}
+.aravind .footer-world ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    font-size: 12px;
+}
+.last .end ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}  
+.last .end ul li {
+    margin-right: 30px;
+}  
+.last .end ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+/* FOOTER END */
+
+
+
+/* CREATE A HORIZONTAL LINES */
+
+ .line{
+    width: 98%;
+    height: 2px;
+    margin: 0 auto ;
+    background-color: grey;
+    padding-left:10px; 
+    padding-right:10px;
+}
